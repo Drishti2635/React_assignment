@@ -1,0 +1,29 @@
+.navbar {
+    background-color: rgba(76, 175, 80, 0.7); 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    backdrop-filter: blur(10px); 
+  }
+  
+  .navbar-logo {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .navbar-menu a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-menu a:hover {
+    text-decoration: underline;
+  }
